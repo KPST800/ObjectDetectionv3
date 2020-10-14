@@ -4,7 +4,7 @@ numpy
 #Pillow
 Flask
 #ten
-
+opencv-python-headless
 #rflow==1.12.2
 #tensorflow==1.15.0
 #protobuf>=3.6.1
