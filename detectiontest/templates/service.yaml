@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "detectiontest.fullname" . }}
+  labels:
+    app.kubernetes.io/name: {{ include "detectiontest.name" . }}
+    helm.sh/chart: {{ include "detectiontest.chart" . }}
+    app.kubernetes.io/instance: {{ .Release.Name }}
+    app.kubernetes.io/managed-by: {{ .Release.Service }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: 5000
+      protocol: TCP
+      name: http
+  selector:
+    app.kubernetes.io/name: {{ include "detectiontest.name" . }}
+    app.kubernetes.io/instance: {{ .Release.Name }}
