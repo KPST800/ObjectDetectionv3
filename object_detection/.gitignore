@@ -1,0 +1,10 @@
+/__init__.pyc
+/eval.pyc
+/eval_util.pyc
+/evaluator.pyc
+/export_inference_graph.pyc
+/exporter.pyc
+/exporter_test.pyc
+/train.pyc
+/trainer.pyc
+/trainer_test.pyc

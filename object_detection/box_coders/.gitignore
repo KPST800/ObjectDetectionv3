@@ -1,0 +1,9 @@
+/__init__.pyc
+/faster_rcnn_box_coder.pyc
+/faster_rcnn_box_coder_test.pyc
+/keypoint_box_coder.pyc
+/keypoint_box_coder_test.pyc
+/mean_stddev_box_coder.pyc
+/mean_stddev_box_coder_test.pyc
+/square_box_coder.pyc
+/square_box_coder_test.pyc
