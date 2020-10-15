@@ -20,8 +20,8 @@ def after_request(response):
 
 @app.route('/')
 def index():
-    # return Response('ETRI Object Detection Test 2019.09.27 #8')
-    return render_template('index.html')
+    return Response('ETRI Object Detection v3 Test 2020.10.15 #8')
+    # return render_template('index.html')
 
 @app.route('/local')
 def local():
