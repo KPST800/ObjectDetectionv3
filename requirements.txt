@@ -6,7 +6,7 @@ Flask
 #ten
 opencv-python-headless
 #rflow==1.12.2
-#tensorflow==1.15.0
+#tensorflow-cpu=2.3.1
 #protobuf>=3.6.1
 setuptools>=36
 six
