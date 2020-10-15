@@ -64,7 +64,7 @@ def image():
 
 if __name__ == '__main__':
 	# without SSL
-     app.run(debug=false, host='0.0.0.0')
+     app.run(debug=False, host='0.0.0.0')
     # app.run(debug=True)
 	# with SSL
     #app.run(debug=True, host='0.0.0.0', ssl_context=('ssl/server.crt', 'ssl/server.key'))
